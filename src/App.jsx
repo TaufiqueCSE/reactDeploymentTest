@@ -17,7 +17,8 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h2>api key: {import.meta.env.VITE_API_KEY}</h2>
+      <h3>deplyment test of react project by <strong>Md Taufique</strong></h3>
+      <p>api key: {import.meta.env.VITE_API_KEY}</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
